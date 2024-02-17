@@ -8,13 +8,19 @@
                     <a href="{{ route('index', ['locale' => app()->getLocale()]) }}" class="logo "><img class="my-2" src="{{ url('/') }}/storage/{{ settings()->logo }}" alt=""></a>
 
                     <h4 class="my-2">
-                        follow us
+                        {{__("Follow us")}}
                     </h4>
                     <div class="social d-flex gap-2">
-                        <div class="icon"><i class="bi bi-facebook"></i></div>
-                        <div class="icon"><i class="bi bi-instagram"></i></div>
-                        <div class="icon"><i class="bi bi-twitter "></i></div>
-                        <div class="icon"><i class="bi bi-youtube"></i></div>
+                        <div class="icon">
+                            <a href="https://facebook.com/{{ settings()->fb_url }}">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://instagram.com/{{ settings()->instagram_url }}">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -40,7 +46,7 @@
                 </ul>
             </div>
             <div class="col-12 col-lg-3 col-md-6 mx-auto d-flex flex-column my-4 gap-3">
-                <h4>Dashboard</h4>
+                <h4>{{__("Dashboard")}}</h4>
                 <ul class="d-flex flex-column gap-3">
                     <li class="d-flex align-items-center gap-2">
                         <i class="bi bi-chevron-right"></i>
