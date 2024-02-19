@@ -2,7 +2,7 @@
 <header class="header">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="{{ route('index') }}"><img src="{{ url('/') }}/storage/{{ settings()->logo }}" class="logo" alt="LOGO"></a>
+            <a class="navbar-brand" style="width: 200px; height: 100px;" href="{{ route('index') }}"><img src="{{ url('/') }}/storage/{{ settings()->logo }}" class="logo" alt="LOGO"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="bi bi-list" id="menu"></i>
