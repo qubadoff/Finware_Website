@@ -22,7 +22,7 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-lg-12 col-12" data-aos="fade-right" data-aos-delay="200">
-                    <img style="width: 1300px; height: 800px;" src="{{ url('/') }}/storage/{{ $service->image }}" alt="service-img">
+                    <img style="width: 800px; height: 500px;" src="{{ url('/') }}/storage/{{ $service->image }}" alt="service-img">
                     <p>
                          {!! $service->body !!}
                     </p>

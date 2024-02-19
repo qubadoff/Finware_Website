@@ -29,6 +29,7 @@
                                 <h1 class="title-2">
                                     {{ $product->name }}
                                 </h1>
+                                <h2 class="title-3">{{__("Price")}} : {{ $product->price ?? '' }}</h2>
                             </a>
                         </div>
                     </div>
