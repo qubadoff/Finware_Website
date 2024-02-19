@@ -1,5 +1,5 @@
 @extends('Frontend.layouts.app')
-@section('title', __("Home Page"))
+@section('title', __("Home"))
 @section('content')
     <!-- ============== Start Hero section ========== -->
     <section class="hero d-flex flex-column justify-content-center align-items-center" id="hero">

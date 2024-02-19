@@ -1,4 +1,4 @@
-<br/><br/><br/><br/>
+<br/><br/>
 <!-- ============== Start Footer section ========== -->
 <div class="footer">
     <div class="container">
