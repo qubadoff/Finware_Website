@@ -78,8 +78,8 @@
         <br/>
 
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.061016388974!2d49.82610727746584!3d40.3853402714447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d9be60052ab%3A0xd7852fa710c6b11a!2sCaspian%20Plaza!5e0!3m2!1sen!2saz!4v1708186676316!5m2!1sen!2saz"
-                width="1300"
-                height="400"
+                width="800"
+                height="500"
                 style="border:0;"
                 allowfullscreen=""
                 loading="lazy"
